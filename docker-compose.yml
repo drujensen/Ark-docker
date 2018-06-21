@@ -1,0 +1,19 @@
+version: '2'
+services:
+  ark:
+    image: turzam/ark
+    ports:
+      - 7778:7778
+      - 7778:7778/udp
+      - 27015:27015
+      - 27015:27015/udp
+      - 32330:32330
+    volumes:
+      - /home/ubuntu/ark:/ark
+    environment:
+      SERVERMAP: "Aberration_P"
+      SESSIONNAME: "Cavern's End"
+      ADMINPASSWORD: "1SeanDuc"
+      AUTOUPDATE: 120 
+      AUTOBACKUP: 60
+      WARNMINUTE: 30
