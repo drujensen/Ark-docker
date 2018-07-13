@@ -6,10 +6,14 @@ services:
       SERVERMAP: "TheIsland"
       #SERVERMAP: "Aberration_P"
       SESSIONNAME: "Cavern's End"
-      ADMINPASSWORD: "1SeanDuc"
+      ADMINPASSWORD: "password"
       AUTOUPDATE: 120 
       AUTOBACKUP: 60
       WARNMINUTE: 30
+      BACKUPONSTART: 1
+      UPDATEONSTART: 1
+      GID: 1000
+      UID: 1000  
     ports:
       - 7777:7777
       - 7777:7777/udp
