@@ -6,7 +6,7 @@ services:
       SERVERMAP: "TheIsland"
       #SERVERMAP: "Aberration_P"
       SESSIONNAME: "Cavern's End"
-      ADMINPASSWORD: "password"
+      ADMINPASSWORD: "1SeanDuc"
       AUTOUPDATE: 120 
       AUTOBACKUP: 60
       WARNMINUTE: 30
