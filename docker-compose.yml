@@ -3,8 +3,8 @@ services:
   ark:
     image: sj10/ark
     environment:
-      SERVERMAP: "TheIsland"
-      #SERVERMAP: "Aberration_P"
+      #SERVERMAP: "TheIsland"
+      SERVERMAP: "Aberration_P"
       SESSIONNAME: "Cavern's End"
       ADMINPASSWORD: "1SeanDuc"
       AUTOUPDATE: 120 
